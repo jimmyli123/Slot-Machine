@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+img {
+    width: 100px;
+    height:100px;
+    border: 2px solid black;
+}
+
+#slots {
+    display: flex;
+}
+
+#main {
+width: 100px;
+height: 300px;
+overflow: hidden;
+}
+
+.slot1 {
+    animation: imageSlide linear 2s infinite;
+}
+
+@keyframes imageSlide {
+    from {top: -100px}
+    to {top: 0}
+    from {transform: translateY(0) }
+    to {transform: translateY(1000px)}
+}
