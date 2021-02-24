@@ -17,18 +17,30 @@ img {
     border: 2px solid black;
 }
 
-#slots {
+/* #slots {
     display: flex;
-}
+} */
 
 #main {
-width: 100px;
+width: 300px;
 height: 300px;
 overflow: hidden;
+display: flex;
 }
 
 .slot1 {
     animation: imageSlide linear 2s infinite;
+}
+
+.slot2 {
+    
+    animation: imageSlide linear 2s infinite;
+    animation-delay: 120ms;
+
+}
+.slot3 {
+    animation: imageSlide linear 2s infinite;
+    animation-delay: 180ms;
 }
 
 @keyframes imageSlide {
